@@ -6,3 +6,4 @@ test('Should verify the status of the app', async({request}) => {
     const body = await response.json();
     expect (body.status).toBe('UP');
 });
+
